@@ -5,7 +5,6 @@
     "title": "Monbit",
     "css": "",
     "description": "[In Progress] Monbit is a system that allows the registration of expenses and income both web and mobile, which also has an AI that can advise and give financial advice.",
-
     "descriptionLarge": "This is a fullstack project, where I created the database, the backend and the design in figma of the app and cms and its implementation in ReactNative for the mobile part and the CMS in Vuejs, we use technologies such as: React Query, Pinia, Redux, OpenIA and Stripe.",
     "skills": ["React Native", "Redux", "React Query", "Pinia", "OpenIA", "Stripe", "Vue"],
     "repository": "",
@@ -18,7 +17,6 @@
     "title": "Portfolio Lewis",
     "css": "md:col-span-2",
     "description": "This is my portfolio, where you can find my work.",
-
     "descriptionLarge": "This project was built from Vue3 and Tailwindcss. I designed the whole website in figma and then developed it to code.",
     "skills": ["Vue", "TailwindCss"],
     "repository": "https://github.com/LewisFNoguera/portfolio-lewis-noguera",
@@ -31,7 +29,6 @@
     "title": "Monetta",
     "css": "md:col-span-2",
     "description": "Monetta is a SuperApp with an integrated multi-currency digital wallet, and it's own payment method based on tokens that allows people to access a wide portfolio of goods and services in a complete ecosystem with the latest products from Nike, Amazon USA, Sephora or Ralph Lauren, digital services like mobile and sports betting top-ups and financial solutions like Monetta's debit card, among others.",
-
     "descriptionLarge": "In this project I worked creating the UI of the CMS and the mobile App, I also participated in the frontend development in React for the CMS, creating modules, passing the design to code, the same with the mobile app, additionally I supported the backend team creating API services for both platforms.",
     "skills": ["React Native", "Redux", "Axios", "React", "TailwindCss", "NestJs"],
     "repository": "",
@@ -44,7 +41,6 @@
     "title": "MDIntelligence",
     "css": "",
     "description": "Landing page design and coding for a software development company.",
-
     "descriptionLarge": "For this project I did all the UI design in figma and its later implementation in Astro and Tailwind css. ",
     "skills": ["Astro", "TailwindCss"],
     "repository": "https://github.com/LewisFNoguera/mdinteliigence",
@@ -57,7 +53,6 @@
     "title": "OWO tech",
     "css": "",
     "description": "OWO is a mobile platform for the sale of digital services or products.",
-
     "descriptionLarge": "I worked on this project designing the UI partially of the mobile app and in the design and frontend development of the administrative CMS in Angular.",
     "skills": ["React Native", "Redux", "Angular", "Axios"],
     "repository": "",
@@ -70,7 +65,6 @@
     "title": "Daviplata Map",
     "css": "md:col-span-2",
     "description": "It is a map that allows the user to find points of service of the Bank: ATMs, banking correspondents or points of attention.",
-
     "descriptionLarge": "In this project I worked as Frontend Developer and UI Designer, my task was to add improvements in the UI of certain components for this I presented designs in Figma for approval and subsequent implementation in Angular.",
     "skills": ["Angular", "Figma"],
     "repository": "",
@@ -83,7 +77,6 @@
     "title": "Davivienda Map",
     "css": "md:col-span-2",
     "description": "It is a map that allows the user to find points of service of the Bank: ATMs, banking correspondents or points of attention.",
-
     "descriptionLarge": "In this project I worked as Frontend Developer and UI Designer, my task was to add improvements in the UI of certain components for this I presented designs in Figma for approval and subsequent implementation in Angular.",
     "skills": ["Angular", "Figma"],
     "repository": "",
@@ -96,7 +89,6 @@
     "title": "R-SALES (Adatec S.A.S)",
     "css": "md:col-span-2",
     "description": "R-SALES (Remote Sales) is a service developed to optimize and monetize the operation of companies with any type of field personnel. The service allows to streamline the processes in the field and audit their correct execution.",
-
     "descriptionLarge": "In this project I worked as Frontend Developer and UI Designer, my task was to add improvements in the UI of certain components for this I presented designs in Figma for approval and subsequent implementation in SenchaTouch, in addition to design and develop the company's website and administrative portals..",
     "skills": ["SenchaTouch", "Figma", "Wordpress"],
     "repository": "",
