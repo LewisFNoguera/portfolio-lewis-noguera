@@ -1,5 +1,12 @@
 import { createRouter, createMemoryHistory } from 'vue-router'
-import { ExperiencePage, HomePage, ProjectsPage, SkillsPage, ContactPage } from '../pages'
+import {
+  ExperiencePage,
+  HomePage,
+  ProjectsPage,
+  SkillsPage,
+  ContactPage,
+  AchievementsPage
+} from '../pages'
 import { Layout } from '../layout'
 
 const router = createRouter({
@@ -29,6 +36,11 @@ const router = createRouter({
           path: '',
           name: 'skills',
           component: SkillsPage
+        },
+        {
+          path: '',
+          name: 'achievements',
+          component: AchievementsPage
         },
         {
           path: '',

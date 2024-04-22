@@ -1,11 +1,14 @@
 <template>
-  <div id="experience" class="mx-auto w-full md:max-w-7xl px-6 py-24 sm:py-32 lg:px-8 lg:py-40">
-    <h1 class="text-center uppercase text-black dark:text-white mb-20">Experience</h1>
+  <section id="experience" class="mx-auto w-full md:max-w-7xl px-6 py-24 sm:py-32 lg:px-8 lg:py-40">
+    <h2
+      class="mb-20 text-center text-3xl font-bold tracking-tight dark:text-white text-black sm:text-4xl"
+    >
+      Experience
+    </h2>
     <div class="w-full max-w-3xl mx-auto">
       <div class="-my-6">
         <!-- Item #1 -->
         <div class="relative pl-8 sm:pl-32 py-6 group">
-          <!-- Vertical line (::before) ~ Date ~ Title ~ Circle marker (::after) -->
           <div
             class="flex flex-col items-start mb-1 group-last:before:hidden before:absolute before:left-2 sm:before:left-0 before:h-full before:px-px bg-gradient-bar sm:before:ml-[6.5rem] before:self-start before:-translate-x-1/2 before:translate-y-3 after:absolute after:left-2 sm:after:left-0 after:w-2 after:h-2 after:bg-[#E85F87] after:border-4 after:box-content after:border-slate-50 after:rounded-full sm:after:ml-[6.5rem] after:-translate-x-1/2 after:translate-y-1.5"
           >
@@ -20,14 +23,16 @@
           </div>
           <!-- Content -->
           <div class="text-black dark:text-white">
-            Design graphical user interfaces for cell phones and websites, develop them in React and
-            React-Native. Support in improving or creating backend services through NestJS.
+            Design and development of modules and reusable components for the main app in
+            #React-Native. Design and development of modules and components for the product's
+            administrative CMS using #React. Design and development of static web pages, in #HTML,
+            #CSS and #Javascript. Design of components in #Figma . Support in improving or creating
+            backend services through NestJS.
           </div>
         </div>
 
         <!-- Item #2 -->
         <div class="relative pl-8 sm:pl-32 py-6 group">
-          <!-- Vertical line (::before) ~ Date ~ Title ~ Circle marker (::after) -->
           <div
             class="flex flex-col items-start mb-1 group-last:before:hidden before:absolute before:left-2 sm:before:left-0 before:h-full before:px-px bg-gradient-bar sm:before:ml-[6.5rem] before:self-start before:-translate-x-1/2 before:translate-y-3 after:absolute after:left-2 sm:after:left-0 after:w-2 after:h-2 after:bg-[#E85F87] after:border-4 after:box-content after:border-slate-50 after:rounded-full sm:after:ml-[6.5rem] after:-translate-x-1/2 after:translate-y-1.5"
           >
@@ -42,14 +47,16 @@
           </div>
           <!-- Content -->
           <div class="text-black dark:text-white">
-            Pretium lectus quam id leo. Urna et pharetra pharetra massa massa. Adipiscing enim eu
-            neque aliquam vestibulum morbi blandit cursus risus.
+            Creation of user interfaces for the Monetta app and for client companies such as OWO,
+            Davivienda (Maps) in #Figma and #AdobeXD. Front-End development through libraries or
+            frameworks like #ReactNative #React, #Angular and #TailwindCSS for administrative CMS
+            and websites, implementing agile methodologies like #SCRUM and using tools like
+            #BITBUCKET and #JIRA for development team management and goal achievement.
           </div>
         </div>
 
         <!-- Item #3 -->
         <div class="relative pl-8 sm:pl-32 py-6 group">
-          <!-- Vertical line (::before) ~ Date ~ Title ~ Circle marker (::after) -->
           <div
             class="flex flex-col items-start mb-1 group-last:before:hidden before:absolute before:left-2 sm:before:left-0 before:h-full before:px-px bg-gradient-bar sm:before:ml-[6.5rem] before:self-start before:-translate-x-1/2 before:translate-y-3 after:absolute after:left-2 sm:after:left-0 after:w-2 after:h-2 after:bg-[#E85F87] after:border-4 after:box-content after:border-slate-50 after:rounded-full sm:after:ml-[6.5rem] after:-translate-x-1/2 after:translate-y-1.5"
           >
@@ -73,7 +80,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </section>
 </template>
 
 <script setup lang="ts"></script>

@@ -1,79 +1,55 @@
 <template>
-  <div
+  <section
     id="contact"
-    class="mx-auto w-full md:max-w-5xl px-6 py-24 sm:py-32 lg:px-8 lg:py-40 gradient-bg rounded-lg"
+    class="mx-auto w-full md:max-w-5xl px-6 py-24 sm:py-32 lg:px-8 lg:py-60 gradient-bg rounded-lg z-10"
   >
-    <h3 class="text-center font-thin uppercase text-black dark:text-white">hey!</h3>
-    <h2 class="text-center text-2xl uppercase text-black dark:text-white mb-20">
-      Got a question or proposal, or just want<br />
-      to say hello? Go ahead.
+    <h3 class="text-center text-3xl font-thin text-black dark:text-white mb-5">hey!</h3>
+    <h2
+      class="text-center text-3xl font-bold tracking-tight dark:text-white text-black sm:text-4xl mb-20"
+    >
+      Got a questions or proposal, or just want to say hello? Send an email to
+      <a
+        href="mailto:lewisnoguera@gmail.com"
+        class="text-indigo-600 decoration-none hover:text-indigo-200"
+        >lewisnoguera@gmail.com</a
+      >
+      or find me on my social networks.
     </h2>
-    <form action="#" method="POST" class="mx-auto mt-16 max-w-xl sm:mt-20">
-      <div class="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
-        <div class="sm:col-span-2">
-          <label
-            for="full-name"
-            class="block text-sm font-semibold leading-6 text-black dark:text-white"
-            >Full Name</label
-          >
-          <div class="mt-2.5">
-            <input
-              type="text"
-              name="full-name"
-              id="full-name"
-              autocomplete="given-name"
-              class="block w-full rounded-none border-b-2 px-3.5 py-2 text-black dark:text-white bg-transparent text-black dark:text-white bg-transparent"
-            />
-          </div>
-        </div>
 
-        <div class="sm:col-span-2">
-          <label
-            for="email"
-            class="block text-sm font-semibold leading-6 text-black dark:text-white"
-            >Email</label
-          >
-          <div class="mt-2.5">
-            <input
-              type="email"
-              name="email"
-              id="email"
-              autocomplete="email"
-              class="block w-full rounded-none border-b-2 px-3.5 py-2 text-black dark:text-white bg-transparent"
-            />
-          </div>
-        </div>
-
-        <div class="sm:col-span-2">
-          <label
-            for="message"
-            class="block text-sm font-semibold leading-6 text-black dark:text-white"
-            >Message</label
-          >
-          <div class="mt-2.5">
-            <textarea
-              name="message"
-              id="message"
-              rows="1"
-              class="block w-full rounded-none border-b-2 px-3.5 py-2 text-black dark:text-white bg-transparent"
-            />
-          </div>
-        </div>
-      </div>
-      <div class="mt-10">
-        <button
-          type="submit"
-          class="rounded-full bg-gray-900 dark:bg-white px-3.5 py-1.5 text-sm font-semibold text-white dark:text-black shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 flex items-center"
-        >
-          Here we go! <IconArrow class="dark:text-black text-white" />
-        </button>
-      </div>
-    </form>
-  </div>
+    <div class="flex gap-5 text-center justify-center">
+      <a
+        target="_blank"
+        href="https://github.com/LewisFNoguera"
+        class="decoration-none transition-all duration-200 hover:scale-110"
+      >
+        <IconGithub class="text-black dark:text-white" />
+      </a>
+      <a
+        target="_blank"
+        href="https://www.linkedin.com/in/lewisnoguera/"
+        class="decoration-none transition-all duration-200 hover:scale-110"
+      >
+        <IconLinkedin class="text-black dark:text-white" />
+      </a>
+      <a
+        target="_blank"
+        href="https://www.instagram.com/lewisfnoguera/"
+        class="decoration-none transition-all duration-200 hover:scale-110"
+      >
+        <IconInstagram class="text-black dark:text-white" />
+      </a>
+      <a
+        href="mailto:lewisnoguera@gmail.com"
+        class="decoration-none transition-all duration-200 hover:scale-110"
+      >
+        <IconEmail class="text-black dark:text-white" />
+      </a>
+    </div>
+  </section>
 </template>
 
 <script setup lang="ts">
-import { IconArrow } from '@/components/'
+import { IconEmail, IconInstagram, IconGithub, IconLinkedin } from '@/components/'
 </script>
 
 <style scoped></style>

@@ -1,9 +1,13 @@
 <template>
-  <div
+  <section
     id="skills"
     class="mx-auto w-full md:max-w-7xl px-6 py-24 sm:py-32 lg:px-8 lg:py-40 gradient-bg rounded-lg"
   >
-    <h1 class="text-center uppercase text-black dark:text-white mb-20">Skills.</h1>
+    <h2
+      class="text-center text-3xl font-bold tracking-tight dark:text-white text-black sm:text-4xl mb-20"
+    >
+      Skills.
+    </h2>
 
     <div class="flex flex-wrap gap-4 w-full items-center justify-center">
       <div
@@ -111,7 +115,7 @@
         <p class="text-xs text-black dark:text-white">Photoshop</p>
       </div>
     </div>
-  </div>
+  </section>
 </template>
 
 <script setup lang="ts">

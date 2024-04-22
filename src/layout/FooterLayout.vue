@@ -1,6 +1,6 @@
 <template>
-  <footer class="bg-white dark:bg-gray-900 relative">
-    <IconGrandientFooter class="absolute bottom-0 left-0 right-0 w-full hidden md:block" />
+  <footer class="bg-white dark:bg-gray-900 relative pt-20 z-0">
+    <IconGrandientFooter class="absolute bottom-0 left-0 right-0 w-full hidden md:block z-0" />
     <div class="mx-auto max-w-7xl px-6 py-12 md:flex md:items-center md:justify-between lg:px-8">
       <div class="flex justify-center space-x-6 md:order-2">
         <blockquote class="text-right font-bold text-black dark:text-white">
@@ -21,7 +21,5 @@
 <script setup>
 import IconGrandientFooter from '@/components/icons/ui/IconGrandientFooter.vue'
 </script>
-
-<!-- <script setup lang="ts"></script>   -->
 
 <style scoped></style>
