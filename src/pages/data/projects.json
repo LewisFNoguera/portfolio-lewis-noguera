@@ -87,7 +87,7 @@
     "id": 7,
     "imageURL": "./assets/ADATEC.png",
     "title": "R-SALES (Adatec S.A.S)",
-    "css": "md:col-span-2",
+    "css": "",
     "description": "R-SALES (Remote Sales) is a service developed to optimize and monetize the operation of companies with any type of field personnel. The service allows to streamline the processes in the field and audit their correct execution.",
     "descriptionLarge": "In this project I worked as Frontend Developer and UI Designer, my task was to add improvements in the UI of certain components for this I presented designs in Figma for approval and subsequent implementation in SenchaTouch, in addition to design and develop the company's website and administrative portals..",
     "skills": ["SenchaTouch", "Figma", "Wordpress"],
