@@ -47,7 +47,7 @@
 import { IconArrow, IconProfile } from '@/components/'
 import useTypewriterEffect from '@/composables/useTypewriterEffect'
 
-const words: any = [{ text: 'UI Designer' }, { text: 'Frontend' } /* { text: 'Backend' } */]
+const words: any = [{ text: 'UI Designer' }, { text: 'Frontend' }, { text: 'Backend' }]
 
 const { typedWords, currentWordIndex, showCaret } = useTypewriterEffect(words)
 </script>
