@@ -63,7 +63,7 @@ const posts = [
     id: 2,
     title: 'Vuejs: Cero to Expert',
     href: 'https://cursos.devtalles.com/certificates/oahz2ngbgw',
-    imageUrl: 'https://pbs.twimg.com/profile_images/1587916895143043073/DMpsgyZ4_400x400.jpg',
+    imageUrl: './assets/devtalles.png',
     date: 'Mar 30, 2024',
     datetime: '2024-03-30'
   },
@@ -71,7 +71,7 @@ const posts = [
     id: 3,
     title: 'Vuejs - Intermediate',
     href: 'https://cursos.devtalles.com/certificates/dhtzf1hnih',
-    imageUrl: 'https://pbs.twimg.com/profile_images/1587916895143043073/DMpsgyZ4_400x400.jpg',
+    imageUrl: './assets/devtalles.png',
     date: 'Apr 10, 2024',
     datetime: '2024-04-10'
   },
@@ -79,7 +79,7 @@ const posts = [
     id: 4,
     title: 'Dart - Cero to Expert',
     href: 'https://cursos.devtalles.com/certificates/ydaio7f4lg',
-    imageUrl: 'https://pbs.twimg.com/profile_images/1587916895143043073/DMpsgyZ4_400x400.jpg',
+    imageUrl: './assets/devtalles.png',
     date: 'Apr 10, 2024',
     datetime: '2024-04-10'
   }

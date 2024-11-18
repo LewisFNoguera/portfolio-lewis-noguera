@@ -4,28 +4,18 @@
     class="relative mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:flex lg:items-center lg:gap-x-10 lg:px-8 lg:py-40 z-50"
   >
     <div class="gradient absolute hidden lg:block"></div>
-    <div class="mx-auto max-w-2xl lg:mx-0 lg:flex-auto">
-      <span class="font-bold tracking-tight text-gray-900 dark:text-white text-4xl md:text-[64px]"
-        >I'm</span
-      >
-      <div class="h-28">
-        <span v-for="(word, index) in typedWords" :key="index">
-          <h1
-            v-if="index === currentWordIndex"
-            class="font-bold leading-[0.9] tracking-tight text-gray-900 dark:text-white gradient-text text-6xl md:text-[110px] min-h-28 p-0 m-0"
-          >
-            {{ word }}
-            <span
-              class="text-black dark:text-white font-bold p-0 m-0 text-6xl"
-              v-if="currentWordIndex === index && showCaret"
-              >|</span
-            >
+    <div class="mx-auto max-w-2xl lg:mx-0 lg:flex-auto">        
+      <div >
+        <span>          
+          <h1 class="font-bold leading-[0.9] tracking-tight text-gray-900 dark:text-white gradient-text text-6xl md:text-[110px] min-h-28 p-0 m-0"
+          >            FullStack Developer            
           </h1>
+          
         </span>
       </div>
       <p class="mt-6 text-lg leading-8 text-black dark:text-white">
         +6 years of experience building web and mobile applications using
-        <b>JavaScript, React.js, Angular, Vue, React Native, Astro</b> and other cutting-edge
+        <b>JavaScript, React, Angular, Vue, React Native, Astro, Node, Express</b> and other cutting-edge
         libraries and designs in <b>figma or AdobeXD.</b>
       </p>
       <div class="mt-10 flex items-center gap-x-6">
@@ -73,8 +63,7 @@ const { typedWords, currentWordIndex, showCaret } = useTypewriterEffect(words)
 
   width: var(--size);
   height: var(--size);
-  filter: blur(calc(var(--size) / 5));
-  /* background-image: linear-gradient(hsl(158, 82, 57, 85%), hsl(252, 82, 57)); */
+  filter: blur(calc(var(--size) / 5));  
   @apply bg-gradient-to-r from-[#4AB1F1] from-0% via-[#566CEC] via-35% via-[#D749AF] via-75% to-[#FF7C51] to-100%;
   animation: rotate var(--speed) var(--easing) alternate infinite;
   border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
@@ -92,16 +81,6 @@ const { typedWords, currentWordIndex, showCaret } = useTypewriterEffect(words)
     --size: 500px;
   }
 }
-/* 
-body {
-  background-color: #222;
-  position: absolute;
-  inset: 0;
-  display: flex;
-  place-content: center;
-  align-items: center;
-  overflow: hidden;
-} */
 
 /* This is just to transition when you change the viewport size. */
 * {

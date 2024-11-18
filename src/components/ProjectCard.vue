@@ -16,10 +16,17 @@
     <p class="font-ligh dark:text-white text-black text-sm pt-2">
       {{ description }}
     </p>
+
+    <div class="mt-4">
+    <Badge  v-for="skill in skills" :key="skill" :title="skill" />
+  </div>
+
   </div>
 </template>
 
 <script setup lang="ts">
+import Badge from './Badge.vue';
+
 interface Project {
   project: {
     id?: number
@@ -34,7 +41,7 @@ interface Project {
   }
 }
 const { project } = defineProps<Project>()
-const { title, description, imageURL, css } = project
+const { title, description, imageURL, css, skills } = project
 
 const emit = defineEmits(['open-modal'])
 const openModal = () => {

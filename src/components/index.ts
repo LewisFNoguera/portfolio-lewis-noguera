@@ -13,6 +13,9 @@ export { default as FigmaLogo } from './icons/brands/FigmaLogo.vue'
 export { default as IllustratorLogo } from './icons/brands/IllustratorLogo.vue'
 export { default as PhotoshopLogo } from './icons/brands/PhotoshopLogo.vue'
 export { default as SassLogo } from './icons/brands/SassLogo.vue'
+export { default as ReduxLogo } from './icons/brands/ReduxLogo.vue'
+export { default as ExpressLogo } from './icons/brands/ExpressLogo.vue'
+export { default as NodeLogo } from './icons/brands/NodeLogo.vue'
 
 // Icons UI
 export { default as IconArrow } from './icons/ui/IconArrow.vue'

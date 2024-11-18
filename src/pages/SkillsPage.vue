@@ -41,6 +41,13 @@
       <div
         class="w-1/4 sm:w-1/6 h-12 flex flex-col items-center justify-center transition-all duration-200 hover:scale-110"
       >
+        <ReduxLogo class="text-black dark:text-white w-1/3 sm:w-1/6 h-12" />
+        <p class="text-xs text-black dark:text-white">Redux</p>
+      </div>
+
+      <div
+        class="w-1/4 sm:w-1/6 h-12 flex flex-col items-center justify-center transition-all duration-200 hover:scale-110"
+      >
         <VueLogo class="text-black dark:text-white w-1/3 sm:w-1/6 h-12" />
         <p class="text-xs text-black dark:text-white">Vue</p>
       </div>
@@ -50,6 +57,20 @@
       >
         <AngularLogo class="text-black dark:text-white w-1/3 sm:w-1/6 h-12" />
         <p class="text-xs text-black dark:text-white">Angular 7+</p>
+      </div>
+
+      <div
+        class="w-1/4 sm:w-1/6 h-12 flex flex-col items-center justify-center transition-all duration-200 hover:scale-110"
+      >
+        <NodeLogo class="text-black dark:text-white w-1/2 sm:w-1/4 h-12" />
+        <p class="text-xs text-black dark:text-white">Node</p>
+      </div>
+
+      <div
+        class="w-1/4 sm:w-1/6 h-12 flex flex-col items-center justify-center transition-all duration-200 hover:scale-110"
+      >
+        <ExpressLogo class="text-black dark:text-white w-1/2 sm:w-1/4 h-12" />
+        <p class="text-xs text-black dark:text-white">Express</p>
       </div>
 
       <div
@@ -133,8 +154,12 @@ import {
   FigmaLogo,
   IllustratorLogo,
   PhotoshopLogo,
-  SassLogo
+  SassLogo,
+  ReduxLogo,
+  ExpressLogo,
+  NodeLogo
 } from '@/components/'
+
 </script>
 
 <style scoped>
