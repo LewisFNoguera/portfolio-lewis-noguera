@@ -20,8 +20,8 @@
       </p>
       <div class="mt-10 flex items-center gap-x-6">
         <a
-          href="./assets/CV/CV-Lewis_Noguera_Gomez.pdf"
-          download
+          href="https://drive.google.com/drive/folders/1yk3-rD-c84IrUrnRskW8LdXgDlvhHPPp?usp=sharing"
+          target="_blank"
           class="rounded-full bg-gray-900 dark:bg-white px-3.5 py-1.5 text-sm font-semibold text-white dark:text-black shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 flex items-center"
           >Check Resume <IconArrow class="dark:text-black text-white"
         /></a>
