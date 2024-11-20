@@ -5,7 +5,7 @@
     "title": "RAP Pacífico",
     "css": "md:col-span-2",
     "description": "RAP Pacifico is a platform where agencies can sell services or tour packages as an ecommerce, especially tourism on the Colombian Pacific.",
-    "descriptionLarge": "In this project I worked as Javascript Backend Developer, my task was to create new services to send information to the website, I connected the payment gateway, created a flow to allow the user to buy some service as a guest and finally I corrected and improved some queries and services to improve the user experience. I enabled email notifications and redesigned these email templates.",
+    "descriptionLarge": "In this project I worked as Javascript Backend Developer, my task was to create new services to send information to the website using node and Express, I connected the payment gateway, created a flow to allow the user to buy some service as a guest and finally I corrected and improved some queries and services to improve the user experience. I enabled email notifications and redesigned these email templates. Also I create new frontend views in NextJS and integrate them with the backend.",
     "skills": ["Nodejs", "Express", "Typescript", "Microservices"],
     "repository": "",
     "liveDemoUrl": "https://portal.pacificocolombia.com/",
